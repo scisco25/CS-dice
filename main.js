@@ -78,7 +78,7 @@ function snakeEyes() {
 function doroll(rollcount) {
   //create an array to store the values of the rolls
   let rolls = [];
-  for(let i = 0; i < rollcount; i++) {
+  for(let i = 0; i < rollcount * 2; i++) {
     //roll and store it to an array index
     rolls[i] = Math.floor(Math.random() * 6) + 1;
   }
